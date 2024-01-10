@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <div class="heading">
+        <h1 style="text-align: center">Posts List</h1>
+        <button onclick="addNewPost()" class="addBtn">Add New Post</button>
+      </div>
+      <table id="postTable">
+        <thead id="postTableHead">
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Body</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="postTableBody"></tbody>
+        <div id="popUpBox"></div>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

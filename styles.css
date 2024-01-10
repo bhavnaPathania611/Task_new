@@ -1,0 +1,58 @@
+#postTable,
+#postTable th,
+#postTable td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+#postTable {
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.addBtn {
+  padding: 1rem;
+}
+.closeBtn {
+  float: right;
+}
+.closeBtn:hover,
+.closeBtn:focus {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.heading > h1 {
+  text-align: center;
+  width: 90%;
+}
+#popUpBox {
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  box-shadow: 10px 10px 5px rgb(138, 138, 138);
+  background-color: #000000;
+  color: white;
+  font-size: 1rem;
+}
+#popUpBox > h2 {
+  font-size: 2rem;
+}
+.btnContainer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.btnContainer button {
+  padding: 1rem;
+  font-size: 1rem;
+}
